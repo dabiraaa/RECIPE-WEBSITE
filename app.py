@@ -27,7 +27,7 @@ def puffpuff():
     return render_template("puffpuff.html")
 #runs the web server and app
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True)
 
 
 
